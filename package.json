@@ -1,0 +1,31 @@
+{
+    "name": "if",
+    "version": "1.0.0",
+    "main": "./If.js",
+    "author": "Anthony Budd",
+    "scripts": {
+        "lint": "eslint src",
+        "test": "./node_modules/.bin/mocha tests"
+    },
+    "eslintConfig": {
+        "extends": "eslint:recommended",
+        "parserOptions": {
+            "ecmaVersion": 8,
+            "sourceType": "module"
+        },
+        "env": {
+            "node": true,
+            "es6": true
+        },
+        "rules": {
+            "no-console": 0,
+            "no-unused-vars": 1
+        }
+    },
+    "dependencies": {
+       
+    },
+    "devDependencies": {
+        "mocha": "^9.1.3"
+    }
+}
